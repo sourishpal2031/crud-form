@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import AddUser from './components/AddUser';
+import AllUser from './components/AllUser';
+import EditUser from './components/EditUser';
+import Sourishform from './components/Sourishform';
+import {BrowserRouter, Routes,Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+      <Route path="/" element={<Sourishform/>}/>
+      <Route path="/add" element={<AddUser/>}/>
+      <Route path="/all" element={<AllUser/>}/>
+      <Route path='/edit/:id' element={<EditUser/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

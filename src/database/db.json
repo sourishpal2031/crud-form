@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Rohit Sharma",
+      "username": "rohitsharma",
+      "email": "rohit@gmail.com",
+      "phone": "3433565545",
+      "id": "1"
+    },
+    {
+      "id": "0b72",
+      "name": "sourishpal2031@gmail.com",
+      "username": "sourishpal2031@gmail.com",
+      "email": "pal.sourish@tcs.com",
+      "phone": "09875329891"
+    },
+    {
+      "id": "2633",
+      "name": "e",
+      "username": "gd",
+      "email": "gd",
+      "phone": "gderer"
+    },
+    {
+      "id": "1ef0",
+      "name": "44",
+      "username": "44",
+      "email": "44",
+      "phone": "44"
+    }
+  ]
+}
